@@ -1,0 +1,85 @@
+.header
+{
+color: #FFFFFF;
+font-family: Broadway;
+font-size: 50px;
+}
+.button_pin {
+ -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border: solid #126aa1 6px;
+  text-decoration: none;
+  margin-left: 85%;
+  margin-top: 4cm;
+}
+body{
+background-color: #00008B;
+}
+.menu{
+margin-top: 2cm;
+margin-left: 60%;
+}
+
+.sub1
+{
+font-size: 20px;
+font-family: Georgia;
+margin-left: 10%;
+margin-top: 2cm;
+color: #FFFFFF;
+}
+.sub2
+{
+font-size: 20px;
+font-family: Georgia;
+margin-left: 10%;
+margin-top: 2cm;
+color: #FFFFFF;
+}
+.txt1{
+
+text-align: center;
+font-family: Georgia;
+margin-left: 10%;
+margin-top: -1cm;
+width: 200px;
+height: 40px;
+border: solid 4px #126aa1;
+padding: 2px;
+border-radius: 8px;
+font-size: 35px;
+box-shadow: -50px -50px 0px 0px rgba(156, 156, 156, 0);
+background-color: #FFFFFF;
+outline: none;
+color: #000000;
+}
+.txt2{
+
+text-align: center;
+font-family: Georgia;
+margin-left: 10%;
+margin-top: -1cm;
+width: 200px;
+height: 40px;
+border: solid 4px #126aa1;
+padding: 2px;
+border-radius: 8px;
+font-size: 35px;
+box-shadow: -50px -50px 0px 0px rgba(156, 156, 156, 0);
+background-color: #FFFFFF;
+outline: none;
+color: #000000;
+}
+.dsc{
+font-size: 50px;
+font-family: Georgia;
+margin-left: 33%;
+margin-top: 4cm;
+color: #FFFFFF;
+}

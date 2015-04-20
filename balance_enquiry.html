@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Balance
+</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<h1 class="header">Iron Bank  </h1>
+
+<?php
+session_start();
+require_once("/boss.php");
+$id=($_SESSION["login"]);
+connect();
+$qry=mysql_query("SELECT * FROM atm.users WHERE user_id= $id && acc_type=1");
+$row=mysql_fetch_array($qry);
+$balance=$row['balance'];
+
+
+<p class="dsc">echo "</br>Your account balance is</br>".$balance;</p>
+
+?>
+
+
+</form></p>
+</body>
+</html>
